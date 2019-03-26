@@ -16,11 +16,11 @@
             <h1>Crear Producto</h1>
            </center>
             <div id="box_formulario">
-                <form action="" name="form_crearproducto" method="GET">
+                <form action="producto.php" name="form_crearproducto" method="POST">
                     <input type="text" name="descripcion_producto" placeholder="Descripción de Producto">
-                    <input type="text" name="codigo_producto" placeholder="Código / Referencia">
+                    <input type="text" name="codigo_producto" placeholder="Código / Referencia" minlength="5" maxlength="8">
                     <input type="text" name="marca_producto" placeholder="Marca">
-                    <input type="submit" value="Crear Producto" minlength="5" maxlength="8">
+                    <input type="submit" value="Crear Producto" >
                 </form>
             </div>
 
